@@ -1,0 +1,20 @@
+@media (max-width:768px) {
+  header {
+    padding: 1.5rem 1rem;
+  }
+
+  .products {
+    padding: 1.75rem 1rem;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+
+  [role="dialog"] {
+      
+    .modalBox {
+      margin: .5rem;
+    }
+  }
+}

@@ -1,10 +1,11 @@
 import { ProductCard } from "./ProductCard";
 
-export const ProductList = ({ productList }) => {
+export const ProductList = ({ productList, addCart }) => {
+  
    return (
-      <ul>
+      <ul className="products">
          {productList.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard key={product.id} product={product} addCart={addCart}/>
          ))}
       </ul>
    );

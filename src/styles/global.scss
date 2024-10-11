@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  /* Tipografias */
+  --ff: "Nunito", sans-serif;
+  --fw-title: 700;
+  --fw-text: 400;
+  --fw-textH: 600;
+  --fs-t1: 26px;
+  --fs-t2: 22px;
+  --fs-t3: 18px;
+  --fs-hl: 16px;
+  --fs-bo: 14px;
+  --fs-ca: 12px;
+
+  /* Cores para fundos, botões e textos */
+  --color-grey-4:#333333;
+  --color-grey-3:#bdbdbd;
+  --color-grey-2:#E0E0E0;
+  --color-grey-1:#F5F5F5;
+
+  /* Cores para spans e detalhes */
+  --color-primary: #27AE60;
+  --color-secondary: #EB5757;
+}
+
+main {
+  font-family: "Inter", sans-serif;
+}

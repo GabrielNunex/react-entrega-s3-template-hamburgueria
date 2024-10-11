@@ -2,7 +2,7 @@ import { useState } from "react";
 import Logo from "../../assets/Logo.svg";
 import { MdSearch, MdShoppingCart } from "react-icons/md";
 
-export const Header = () => {
+export const Header = ({ cartList, setIsOpen}) => {
    const [value, setValue] = useState("");
 
    return (
@@ -10,8 +10,8 @@ export const Header = () => {
          <img src={Logo} alt="Logo Kenzie Burguer" />
          <div>
             <button>
-                <MdShoppingCart size={21} />
-                <span>0</span>
+                <MdShoppingCart size={25} onClick={() => setIsOpen(true)}/>
+                <span className="cart">{cartList.length}</span>
             </button>
             <form>
                <input

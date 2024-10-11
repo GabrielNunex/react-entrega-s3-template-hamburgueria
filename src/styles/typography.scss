@@ -1,0 +1,55 @@
+.title1 {
+  font-size: var(--fs-t1);
+  font-weight: var(--fw-title);
+  color: var(--color-grey-4);
+}
+
+.title2 {
+  font-size: var(--fs-t2);
+  font-weight: var(--fw-title);
+  color: var(--color-grey-4);
+}
+
+.title3 {
+  font-size: var(--fs-t3);
+  font-weight: var(--fw-title);
+  color: var(--color-grey-4);
+}
+
+.fBody {
+  font-size: var(--fs-bo);
+  font-weight: var(--fw-text);
+  color: var(--color-grey-3);
+}
+
+.fBodyH {
+  font-size: var(--fs-bo);
+  font-weight: var(--fw-textH);
+  color: var(--color-primary);
+}
+
+.fCaption {
+  font-size: var(--fs-ca);
+  font-weight: var(--fw-text);
+  color: var(--color-grey-3);
+}
+
+.cart {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.fWhite {
+  color: white;
+}
+
+.fBlack {
+  color: black;
+  font-weight: 600;
+}
+
+.fGray {
+  color: #828282;
+  font-weight: 600;
+}
